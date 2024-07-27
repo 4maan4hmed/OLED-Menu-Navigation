@@ -45,7 +45,7 @@ This project demonstrates an OLED menu navigation system using an Adafruit SSD13
 
 1. Open [Wokwi Simulator](https://wokwi.com/projects/402098435518944257).
 2. Click on the "Start Simulation" button.
-3. Use the virtual buttons to navigate through the menu and adjust settings.
+3. Use the virtual buttons to navigate through the menu and adjust settings or you can use the arrow, Enter and Backspace keys for navigations as well.
 
 ### Real Hardware
 
