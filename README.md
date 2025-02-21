@@ -29,7 +29,7 @@ This project demonstrates an OLED menu navigation system using an Adafruit SSD13
 - `buttonBackPin`: GPIO 18
 - `ledPin`: GPIO 12
 
-![alt text]([http://url/to/img.png](https://github.com/4maan4hmed/OLED-Menu-Navigation/blob/main/Menu_System/Screenshot%202025-02-21%20102015.png))
+![alt text](https://github.com/4maan4hmed/OLED-Menu-Navigation/blob/main/Menu_System/Screenshot%202025-02-21%20102015.png)
 ## Installation
 
 1. Clone the repository or download the ZIP file.
