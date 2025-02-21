@@ -1,93 +1,129 @@
+# OLED Menu Navigation System with PID Control
 
+This project showcases an intuitive OLED-based menu navigation system utilizing an Adafruit SSD1306 display and PID control parameters. The system enables users to navigate through menus and fine-tune settings like PID values and LED brightness using physical buttons.
 
 ---
 
-# OLED Menu Navigation System with PID Control
+## 🔥 Features
 
-This project demonstrates an OLED menu navigation system using an Adafruit SSD1306 display and PID control parameters. The system allows you to navigate through various menus and adjust settings such as PID values and LED brightness using buttons.
+- 📟 **OLED Display:** Clear and structured menu navigation.
+- 🎛 **Adjustable PID Control:** Fine-tune `kp`, `ki`, and `kd` values.
+- 💡 **LED Brightness Control:** Modify LED intensity for visual feedback.
+- 🎮 **Button-Based Navigation:** Simple navigation with Up, Down, Select, and Back buttons.
 
-## Features
+---
 
-- OLED display for menu navigation
-- Adjustable PID control parameters (kp, ki, kd)
-- Adjustable LED brightness
-- Button-based navigation and selection
+## 🛠 Hardware Requirements
 
-## Hardware Requirements
+- **Microcontroller:** ESP32 (or compatible)
+- **Display:** Adafruit SSD1306 OLED
+- **Buttons:** Up, Down, Select, Back
+- **LED & Resistors** for brightness control
 
-- Adafruit SSD1306 OLED display
-- ESP32 or compatible microcontroller
-- Push buttons (Up, Down, Select, Back)
-- LED
-- Resistors for buttons and LED
+### 📌 Pin Configuration
 
-## Pin Configuration
+| Component         | GPIO Pin |
+| ----------------- | -------- |
+| `buttonUpPin`     | 15       |
+| `buttonDownPin`   | 16       |
+| `buttonSelectPin` | 17       |
+| `buttonBackPin`   | 18       |
+| `ledPin`          | 12       |
 
-- `buttonUpPin`: GPIO 15
-- `buttonDownPin`: GPIO 16
-- `buttonSelectPin`: GPIO 17
-- `buttonBackPin`: GPIO 18
-- `ledPin`: GPIO 12
+---
 
-![alt text](https://github.com/4maan4hmed/OLED-Menu-Navigation/blob/main/Menu_System/Screenshot%202025-02-21%20102015.png)
-## Installation
+## 📥 Installation & Setup
 
 1. Clone the repository or download the ZIP file.
 2. Open the project in your preferred IDE (e.g., Arduino IDE).
-3. Ensure you have the required libraries installed:
-    - `Wire`
-    - `Adafruit_GFX`
-    - `Adafruit_SSD1306`
-4. Upload the code to your microcontroller.
-
-## Usage
-
-### Simulation in Wokwi
-
-1. Open [Wokwi Simulator](https://wokwi.com/projects/402098435518944257).
-2. Click on the "Start Simulation" button.
-3. Use the virtual buttons to navigate through the menu and adjust settings or you can use the arrow, Enter and Backspace keys for navigations as well.
-
-### Real Hardware
-
-1. Connect the hardware according to the pin configuration.
-2. Power up the system.
-3. Use the buttons to navigate through the menu:
-    - Up and Down buttons to scroll through menu items.
-    - Select button to choose a menu item.
-    - Back button to return to the previous menu.
-4. Adjust PID values and LED brightness through the respective menus.
-
-## Menu Structure
-
-- **Main Menu**
-  - Bot Mode
-  - Hardware Check
-  - Battery Status
-  - Restart
-  - Calibration
-- **Bot Mode Menu**
-  - Line Follower Mode
-  - Maze Solver Mode
-- **Line Follower Menu**
-  - Start
-  - Check all values
-  - Settings
-- **Maze Solver Menu**
-  - Start
-  - Check all values
-  - Settings
-- **Settings Menu**
-  - PID Values
-  - Initial Speed
-  - Delay Before Start
-  - Max Speed
-  - LED Brightness
-- **PID Menu**
-  - Adjust kp
-  - Adjust ki
-  - Adjust kd
-- **Brightness Menu**
-  - Adjust LED brightness
+3. Install required libraries:
+   - `Wire`
+   - `Adafruit_GFX`
+   - `Adafruit_SSD1306`
+4. Upload the code to your ESP32.
 
 ---
+
+## 🖥 Simulation in Wokwi
+
+Want to try it without hardware? You can simulate it on Wokwi!
+
+🔗 [Wokwi Simulator](https://wokwi.com/projects/402098435518944257)
+
+1. Click **Start Simulation**.
+2. Use virtual buttons or keyboard keys (Arrow keys, Enter, Backspace) to navigate.
+
+### 📸 Screenshots
+
+
+
+---
+
+## 🔌 Running on Real Hardware
+
+1. Connect components as per the **Pin Configuration**.
+2. Power up your ESP32.
+3. Use buttons to navigate:
+   - 🔼 **Up/Down:** Scroll menu items.
+   - ✅ **Select:** Choose an option.
+   - ⬅️ **Back:** Return to the previous menu.
+4. Adjust **PID values** and **LED brightness** dynamically.
+
+---
+
+## 📜 Menu Structure
+
+- **Main Menu**
+
+  - 🚀 **Bot Mode**
+  - 🔧 **Hardware Check**
+  - 🔋 **Battery Status**
+  - 🔄 **Restart**
+  - 🎯 **Calibration**
+
+- **Bot Mode Menu**
+
+  - 🔲 **Line Follower Mode**
+  - 🧩 **Maze Solver Mode**
+
+- **Line Follower Menu**
+
+  - ▶ **Start**
+  - 📊 **Check all values**
+  - ⚙ **Settings**
+
+- **Maze Solver Menu**
+
+  - ▶ **Start**
+  - 📊 **Check all values**
+  - ⚙ **Settings**
+
+- **Settings Menu**
+
+  - 🔄 **PID Values**
+  - 🏎 **Initial Speed**
+  - ⏳ **Delay Before Start**
+  - 🚀 **Max Speed**
+  - 💡 **LED Brightness**
+
+- **PID Menu**
+
+  - 🔼 **Adjust kp**
+  - 🔼 **Adjust ki**
+  - 🔼 **Adjust kd**
+
+- **Brightness Menu**
+
+  - 🌟 **Adjust LED brightness**
+
+---
+
+## 🚀 Future Enhancements
+
+- 📡 **WiFi Connectivity:** Modify settings via a web interface.
+- 🎨 **Customizable UI:** Improve menu aesthetics.
+- 🎯 **Save Settings:** Store user preferences in EEPROM.
+- 🎙 **Voice Commands:** Integrate voice-controlled navigation.
+
+This project is open for improvements and contributions. Happy coding! 🚀
+
