@@ -127,3 +127,7 @@ Want to try it without hardware? You can simulate it on Wokwi!
 
 This project is open for improvements and contributions. Happy coding! 🚀
 
+![alt text](https://github.com/4maan4hmed/OLED-Menu-Navigation/blob/main/Menu_System/Screenshot%202025-02-21%20104257.png) 
+![alt text](https://github.com/4maan4hmed/OLED-Menu-Navigation/blob/main/Menu_System/Screenshot%202025-02-21%20104311.png)
+![alt text](https://github.com/4maan4hmed/OLED-Menu-Navigation/blob/main/Menu_System/Screenshot%202025-02-21%20104332.png)
+![alt text](https://github.com/4maan4hmed/OLED-Menu-Navigation/blob/main/Menu_System/Screenshot%202025-02-21%20102015.png)
